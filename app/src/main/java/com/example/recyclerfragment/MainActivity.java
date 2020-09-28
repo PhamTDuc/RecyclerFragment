@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity  implements ContactAdapter.I
         edAddr = findViewById(R.id.edAddr);
         btnAdd = findViewById(R.id.btnAdd);
         fragmentManager = this.getSupportFragmentManager();
-        listFragment =(ListFragment) fragmentManager.findFragmentById(R.id.list);
+        listFragment =(ListFragment) fragmentManager.findFragmentById(R.id.fragment_list);
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
